@@ -1,0 +1,22 @@
+<!-- Normal Roundback -->
+<svg width="220" height="120" viewBox="0 0 140 100" xmlns="http://www.w3.org/2000/svg" class="fish normalRoundback">
+    <!-- Body -->
+    <path d="M10,50 Q40,15 110,35 Q160,50 110,65 Q40,85 10,50 Z" fill="var(--body-color, #5599ff)" />
+
+    <!-- Tail -->
+    <polygon points="10,50 0,35 0,65" fill="var(--tail-color, #77dddd)" />
+
+    <!-- Top fin -->
+    <path d="M60,30 Q70,10 80,30 L60,30 Z" fill="var(--top-fin-color, #66aacc)"></path>
+
+    <!-- Bottom fin -->
+    <path d="M60,70 Q70,90 80,70 L60,70 Z" fill="var(--bottom-fin-color, #66aacc)"></path>
+
+    <!-- Side fin -->
+    <polygon points="75,50 85,45 85,55" fill="var(--side-fin-color, #33aa88)" fill-opacity="0.6" />
+
+    <!-- Eye -->
+    <circle cx="125" cy="42" r="6" fill="white" />
+    <circle cx="125" cy="42" r="3" fill="black" />
+    <circle cx="127" cy="40" r="1" fill="white" />
+</svg>

@@ -1,0 +1,30 @@
+<!-- Bubblemark -->
+<svg width="220" height="120" viewBox="0 0 160 100" xmlns="http://www.w3.org/2000/svg" class="fish bubblemark">
+
+    <!-- Body -->
+    <path d="M20,50 Q60,15 140,30 Q180,50 140,70 Q60,85 20,50 Z" fill="var(--body-color, #00dddd)" />
+
+    <!-- Tail Fin -->
+    <polygon points="20,50 5,35 5,65" fill="var(--tail-color, #00cccc)"/>
+
+    <!-- Top Fin -->
+    <path d="M50,30 Q65,5 80,30 L50,30 Z" fill="var(--top-fin-color, #33eeee)"></path>
+
+    <!-- Bottom Fin -->
+    <path d="M50,70 Q65,95 80,70 L50,70 Z" fill="var(--bottom-fin-color, #33eeee)"></path>
+
+    <!-- Side fin -->
+    <polygon points="85,50 95,45 95,55" fill="var(--side-fin-color, #00aaaa)" fill-opacity="0.6" />
+
+    <!-- Polka Dots (pattern) -->
+    <circle cx="60" cy="45" r="5" fill="var(--pattern-color, #ffffff)" />
+    <circle cx="80" cy="55" r="6" fill="var(--pattern-color, #ffffff)" />
+    <circle cx="100" cy="40" r="5" fill="var(--pattern-color, #ffffff)" />
+    <circle cx="120" cy="60" r="4" fill="var(--pattern-color, #ffffff)" />
+
+    <!-- Eye -->
+    <circle cx="150" cy="42" r="6" fill="#ffffff" />
+    <circle cx="150" cy="42" r="3" fill="#000000" />
+    <!-- Eye highlight -->
+    <circle cx="152" cy="41" r="1" fill="#ffffff" />
+</svg>

@@ -1,0 +1,299 @@
+/* ALL MODALS */
+
+.modalContainer {
+    width: 100vw;
+    height: 95vh;
+    position: absolute;
+    display: none;
+}
+
+.modal {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 85vw;
+    height: 85vh;
+    position: absolute;
+    left: 7.5vw;
+    top: 5vh;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.modal input[type="text"] {
+    height: 3vh;
+    max-width: 35%;
+    text-align: center;
+}
+
+/* Prevent touch actions on modals to allow moving modals on mobile devices */
+.grabModal,
+.modal {
+    touch-action: none;
+    /* for Safari */
+    -webkit-touch-action: none;
+}
+
+.closeModal {
+    width: 4vw;
+    height: auto;
+    margin: 0 0 0 93%;
+}
+
+.topMenuContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grabModal {
+    width: 2vw;
+    margin-top: 0.5vh;
+    height: auto;
+    position: absolute;
+}
+
+.modal::-webkit-scrollbar {
+    width: 1em;
+}
+
+.modal::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: transparent;
+}
+
+.modal::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.modal::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
+
+.modal::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.modalTitle {
+    text-align: center;
+    border: 3px solid black;
+    padding: 1.5vh 0;
+    margin-bottom: 2vh;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.modalContent {
+    max-width: 80vw;
+    margin: 0 auto 0 auto;
+}
+
+.modalTitle strong {
+    font-size: 2rem;
+}
+
+.modalButtonBlock {
+    margin: 3vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    min-width: 0;
+}
+
+.greenButton p {
+    background-color: darkgreen;
+}
+
+.yellowGreen p {
+    background-color: yellowgreen;
+}
+
+.redButton p {
+    background-color: darkred;
+}
+
+.yellowButton p {
+    background-color: goldenrod;
+}
+
+.subTitleContainer strong {
+    font-size: 1.5rem;
+    margin: 1vh auto;
+}
+
+.subTitleContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(220, 220, 220);
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 97%;
+    margin: 2vh 0;
+}
+
+.modal div {
+    border-radius: 10px;
+}
+
+.shopRowForItems {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 97%;
+    margin-bottom: 2vh;
+}
+
+.shopRows {
+    width: 97%;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    margin-bottom: 2vh;
+}
+
+.rowItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    position: relative;
+}
+
+.shopRows .shopRowForItems:first-of-type {
+    margin-top: 2vh;
+}
+
+.shopRows .shopRowForItems:last-of-type {
+    margin-bottom: 2vh;
+}
+
+.shopRowForItems img:not(.shopItemInfo) {
+    width: 10vw;
+    height: auto;
+    margin: 0 5vw;
+}
+
+.rowItem figure figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 2vh 0;
+}
+
+.buttonGroupRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.buttonGroupRow .modalButtonBlock {
+    flex: 1;
+}
+
+.modalButtonBlock p {
+    white-space: nowrap;
+    margin: 0;
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 1vh 3vw;
+    color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.shopItemInfo {
+    width: 2.5vw;
+    height: auto;
+    position: absolute;
+    top: 0.3vh;
+    right: 0.4vw;
+}
+
+
+
+
+/* ITEMS SHOP MODAL */
+
+#itemsShopItemsContainer {
+    border: 3px solid black;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+/* CHANGE BACKGROUND MODAL */
+
+#modalChangeBackgroundContainer .rowType2 {
+    background-color: rgb(240, 240, 240);
+}
+
+#previewBackgroundLightblue {
+    background-color: lightblue;
+}
+
+#previewBackgroundDarkblue {
+    background-color: darkblue;
+    color: white;
+}
+
+#previewBackgroundAquamarine {
+    background-color: aquamarine;
+    color: black;
+}
+
+#previewBackgroundCoral {
+    background-color: coral;
+}
+
+#previewBackgroundSeagreen {
+    background-color: seagreen;
+    color: white;
+}
+
+#previewBackgroundDarkred {
+    background-color: darkred;
+    color: white;
+}
+
+#previewBackgroundGoldenrod {
+    background-color: goldenrod;
+}
+
+#previewBackgroundWhite {
+    background-color: white;
+}
+
+#previewBackgroundBlack {
+    background-color: black;
+    color: white;
+}
+
+#previewCurrentBackground {
+    background-color: var(--background-color);
+}
+
+.hidden {
+    display: none;
+}

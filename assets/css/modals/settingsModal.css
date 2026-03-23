@@ -1,0 +1,45 @@
+.settingsMenuLeftIcon {
+    width: auto;
+    height: 15vh;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+#saveGameIcon {
+    height: 10vh;
+    width: auto;
+    margin-left: 2.5vw;
+    padding: 3vh 0;
+}
+
+#musicOffIcon {
+    display: none;
+}
+
+.settingsOption {
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.settingsOption img {
+    margin-right: 10px;
+    /* optional spacing */
+}
+
+.settingsOption p:not(.sideInfo) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    text-align: center;
+    width: max-content;
+    /* optional: keeps width tight around text */
+}
+
+.sideInfo {
+    position: absolute;
+    right: 2vw;
+}

@@ -1,0 +1,19 @@
+<!-- Normal Broadback -->
+<svg width="220" height="120" viewBox="0 0 170 100" xmlns="http://www.w3.org/2000/svg" class="fish normalBroadback">
+    <!-- Body -->
+    <path d="M20,50 Q80,5 150,30 Q170,50 150,70 Q80,95 20,50 Z" fill="var(--body-color, #ffcc00)" />
+    <!-- Tail -->
+    <polygon points="20,50 10,40 10,60" fill="var(--tail-color, #ffaa55)" />
+    <!-- Top fin -->
+    <path d="M40,30 Q60,10 80,30 L40,30 Z" fill="var(--top-fin-color, #ffcc00)"></path>
+    <!-- Bottom fin -->
+    <path d="M40,70 Q60,90 80,70 L40,70 Z" fill="var(--bottom-fin-color, #ffcc00)"></path>
+    <!-- Side fin -->
+    <polygon points="90,50 100,45 100,55" fill="var(--side-fin-color, #bb8800)" fill-opacity="0.6" />
+    <!-- Eye white -->
+    <circle cx="140" cy="40" r="6" fill="#ffffff" />
+    <!-- Pupil -->
+    <circle cx="140" cy="40" r="3" fill="#000000" />
+    <!-- Eye highlight -->
+    <circle cx="142" cy="38" r="1" fill="#ffffff" />
+</svg>

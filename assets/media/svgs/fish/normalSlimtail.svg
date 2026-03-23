@@ -1,0 +1,21 @@
+<!-- Normal Slimtail -->
+<svg width="220" height="120" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" class="fish normalSlimtail">
+    <!-- Body -->
+    <path d="M10,50 Q60,20 160,40 Q180,50 160,60 Q60,80 10,50 Z" fill="var(--body-color, #ff7777)" />
+    <!-- Tail -->
+    <polygon points="10,50 0,35 0,65" fill="var(--tail-color, #ff9999)" />
+
+    <!-- Top fin -->
+    <path d="M80,40 Q95,25 110,40 L80,40 Z" fill="var(--top-fin-color, #ffaaaa)"></path>
+
+    <!-- Bottom fin -->
+    <path d="M80,60 Q95,75 110,60 L80,60 Z" fill="var(--bottom-fin-color, #ffaaaa)"></path>
+
+    <!-- Side fin -->
+    <polygon points="100,50 110,45 110,55" fill="var(--side-fin-color, #cc4444)" fill-opacity="0.6" />
+
+    <!-- Eye -->
+    <circle cx="170" cy="45" r="6" fill="#ffffff" />
+    <circle cx="170" cy="45" r="3" fill="#000000" />
+    <circle cx="172" cy="43" r="1" fill="#ffffff" />
+</svg>

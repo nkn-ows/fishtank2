@@ -1,0 +1,27 @@
+<!-- Bubbleback -->
+<svg width="220" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" class="fish bubbleback">
+
+    <!-- Body -->
+    <ellipse cx="110" cy="60" rx="85" ry="45" fill="var(--body-color, #ff5c5c)" stroke="#b32a2a" stroke-width="3" />
+
+    <!-- Spots (pattern) -->
+    <circle cx="75" cy="45" r="8" fill="var(--pattern-color, #fff)" opacity="0.8" />
+    <circle cx="95" cy="70" r="12" fill="var(--pattern-color, #fff)" opacity="0.8" />
+    <circle cx="140" cy="50" r="6" fill="var(--pattern-color, #fff)" opacity="0.8" />
+    <circle cx="165" cy="80" r="10" fill="var(--pattern-color, #fff)" opacity="0.8" />
+
+    <!-- Tail fin -->
+    <polygon points="23,60 7,40 7,80" fill="var(--tail-color, #ff5c5c)" stroke="#b32a2a" stroke-width="3" />
+
+    <!-- Top fin -->
+    <path d="M 100 15 Q 120 0 140 15 L 130 40 Q 110 25 100 15 Z" fill="var(--top-fin-color, #ff5c5c)" stroke="#b32a2a" stroke-width="3" />
+
+    <!-- Bottom fin -->
+    <path d="M 100 105 Q 120 120 140 105 L 130 80 Q 110 95 100 105 Z" fill="var(--bottom-fin-color, #ff5c5c)" stroke="#b32a2a" stroke-width="3" />
+
+    <!-- Eye -->
+    <circle cx="165" cy="55" r="10" fill="#ffffff" stroke="#000000" stroke-width="1.5" />
+    <circle cx="165" cy="55" r="5" fill="#000000" />
+    <!-- Eye highlight -->
+    <circle cx="168" cy="53" r="1" fill="#ffffff" />
+</svg>

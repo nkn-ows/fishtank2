@@ -1,0 +1,33 @@
+<svg width="250" height="120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shrimp Body -->
+  <g id="body">
+    <ellipse cx="120" cy="60" rx="50" ry="28" fill="#ffb6c1" stroke="#e75480" stroke-width="2"/>
+  </g>
+  <!-- Shrimp Segments -->
+  <g id="segments">
+    <ellipse cx="90" cy="60" rx="13" ry="18" fill="#fff0f5" opacity="0.7" />
+    <ellipse cx="110" cy="70" rx="10" ry="13" fill="#fff0f5" opacity="0.7" />
+    <ellipse cx="130" cy="55" rx="9" ry="11" fill="#fff0f5" opacity="0.6" />
+  </g>
+  <!-- Shrimp Tail -->
+  <g id="tail">
+    <polygon points="165,60 210,40 195,70" fill="#ffb6c1" stroke="#e75480" stroke-width="2"/>
+    <ellipse cx="200" cy="52" rx="10" ry="7" fill="#ffe4ec" />
+  </g>
+  <!-- Shrimp Legs -->
+  <g id="legs">
+    <polyline points="80,70 65,95" stroke="#e75480" stroke-width="2" fill="none"/>
+    <polyline points="100,80 85,107" stroke="#e75480" stroke-width="2" fill="none"/>
+    <polyline points="120,88 106,110" stroke="#e75480" stroke-width="2" fill="none"/>
+  </g>
+  <!-- Shrimp Antennae -->
+  <g id="antennae">
+    <path d="M65,42 Q30,35 15,15" stroke="#e75480" stroke-width="2" fill="none"/>
+    <path d="M65,40 Q20,25 18,10" stroke="#e75480" stroke-width="2" fill="none"/>
+  </g>
+  <!-- Shrimp Eye -->
+  <g id="eye">
+    <circle cx="75" cy="45" r="7" fill="#fff" stroke="#e75480" stroke-width="2"/>
+    <circle cx="77" cy="46" r="3" fill="#222"/>
+  </g>
+</svg>

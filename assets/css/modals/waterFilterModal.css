@@ -1,0 +1,24 @@
+.waterFilterBlock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+    border: 2px solid black;
+}
+
+.waterFilterBlock p {
+    margin: 1vh;
+    font-size: 1.2em;
+}
+
+.waterFilterBlock:not(:first-of-type):not(:nth-of-type(2)) p {
+    margin: 5vh;
+}
+
+.waterFilterBlock:nth-of-type(3) #redoWaterFilterTimerButton {
+    margin-right: 5vw;
+}
+
+#waterFilterTimerInput {
+    text-align: center;
+}

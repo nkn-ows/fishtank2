@@ -1,0 +1,51 @@
+#modalStartMenuContainer {
+    display: flex;
+}
+
+#modalStartMenuContainer .modalTitle {
+    margin-top: 4vh;
+}
+
+#modalStartMenuContainer .grabModal {
+    margin-top: 4vh;
+}
+
+#modalStartMenuContainer .topMenuContainer {
+    height: 2vh;
+}
+
+.saveFileBlock {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #b3e5fc;
+    display: flex;
+    justify-content: space-around;
+    margin: 2vh 0;
+}
+
+.saveFileInfo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+}
+
+.saveFileInfo strong {
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-bottom: 1vh;
+}
+
+#startMenuButtonsContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .saveFileBlock {
+        padding: 2vh 0;
+    }
+}

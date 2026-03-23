@@ -1,0 +1,147 @@
+#modalStatsBlock div {
+    text-align: center;
+    padding: 1.5vh 0;
+}
+
+#modalStatsBlock div:not(:last-of-type) {
+    border-bottom: 2px solid black;
+}
+
+#modalStatsBlock {
+    border: 3px solid black;
+    margin-top: 2vh;
+}
+
+.modalContent {
+    max-width: 80vw;
+    margin: 0 auto 0 auto;
+}
+
+#colorInfoBlock {
+    display: flex;
+    justify-content: space-around;
+}
+
+.colorInfo {
+    width: 33%;
+}
+
+#modalFishImgContainer {
+    width: 13%;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
+.colorInfo div {
+    border: 3px solid black;
+    padding: 1.5vh 0;
+}
+
+.colorInfoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+.colorInfo div b {
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+.colorInfo div:not(:last-of-type) {
+    margin-bottom: 1vh;
+}
+
+#modalFishImgContainer {
+    align-items: center;
+    display: flex;
+    border: 3px solid black;
+    padding: 1.5vh 7vw;
+}
+
+#modalStatsBlock>div>strong {
+    font-size: 1.6rem;
+}
+
+#modalStatsBlock div:first-of-type {
+    background-color: lightgray;
+}
+
+#modalStatsBlock b,
+#modalStatsBlock p {
+    display: inline;
+}
+
+#modalStatsBlock span {
+    justify-content: space-between;
+    display: flex;
+    max-width: 45vh;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+b,
+p {
+    font-size: 1.2rem;
+}
+
+.redoButton {
+    width: 3vw;
+    height: auto;
+    background-color: darkgreen;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.redoButton img {
+    width: 3vw;
+    height: auto;
+    display: flex;
+}
+
+.rotateArrows {
+    transition: transform 1s ease;
+    transform: rotate(180deg);
+}
+
+.rotateArrowsBack {
+    transition: transform 1s ease;
+    transform: rotate(0deg);
+}
+
+#modalFishName {
+    position: relative;
+    padding: 3vh 0 3vh 0;
+}
+
+#redoNameButton {
+    position: absolute;
+    right: 3vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+
+    b,
+    p {
+        font-size: 0.8rem;
+    }
+
+    #modalFishName strong {
+        font-size: 1.5rem;
+    }
+
+    #modalStatsBlock>div>strong {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #modalStatsBlock span {
+        max-width: 80%;
+    }
+}

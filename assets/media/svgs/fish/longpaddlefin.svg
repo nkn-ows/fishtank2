@@ -1,0 +1,32 @@
+<!-- Paddlefin -->
+<svg width="220" height="120" viewBox="0 0 160 100" xmlns="http://www.w3.org/2000/svg" class="fish longpaddlefin">
+
+    <!-- Define Pattern and Body -->
+    <defs>
+        <pattern id="diagonal-stripes" patternUnits="userSpaceOnUse" width="20" height="20" patternTransform="rotate(45)">
+            <rect width="10" height="20" fill="var(--pattern-color, #33aaff)" />
+            <rect x="10" width="10" height="20" fill="var(--body-color, #66ddff)" />
+        </pattern>
+    </defs>
+
+    <!-- Body with full pattern coverage -->
+    <path d="M20,50 Q60,20 140,35 Q180,50 140,65 Q60,80 20,50 Z" fill="url(#diagonal-stripes)" stroke="#005577" stroke-width="0.5" />
+
+    <!-- Tail -->
+    <polygon points="20,50 5,35 5,65" fill="var(--tail-color, #0077aa)" />
+
+    <!-- Top Fin -->
+    <path d="M60,30 Q70,10 90,30 L85,40 Q75,25 60,30 Z" fill="var(--top-fin-color, #3399cc)" />
+
+    <!-- Bottom Fin -->
+    <path d="M60,70 Q70,90 90,70 L85,60 Q75,75 60,70 Z" fill="var(--bottom-fin-color, #3399cc)" />
+
+    <!-- Side fin -->
+    <polygon points="95,50 105,45 105,55" fill="var(--side-fin-color, #006699)" fill-opacity="0.6" />
+
+    <!-- Eye -->
+    <circle cx="150" cy="42" r="6" fill="#ffffff" />
+    <circle cx="150" cy="42" r="3" fill="#000000" />
+    <!-- Eye highlight -->
+    <circle cx="152" cy="41" r="1" fill="#ffffff" />
+</svg>

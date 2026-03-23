@@ -1,0 +1,56 @@
+.decorationShopBlock {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    align-items: center;
+}
+
+.rowType2,
+#decorationSettingsBlocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97%;
+    border: 3px solid black;
+    margin: 3vh auto;
+}
+
+.decorationShopBlock {
+    margin: 3vh 0;
+    background-color: rgb(240, 240, 240);
+}
+
+#decorationSettingsBlocks:not(:first-of-type) {
+    background-color: lightblue;
+}
+
+.rowType2>div,
+#decorationSettingsBlocks>div {
+    display: flex;
+    align-items: center;
+    width: 97%;
+    margin: 2vh 0;
+    border: 2px solid black;
+    background-color: white;
+    justify-content: space-between;
+}
+
+
+.rowType2>div b,
+.rowType2>div p:not(.rowItempriceInfo),
+#decorationSettingsBlocks b,
+#decorationSettingsBlocks p {
+    margin: 1vh 0 1vh 7vw;
+    text-align: center;
+}
+
+.rowType2 .modalButtonBlock,
+#decorationSettingsBlocks .modalButtonBlock {
+    margin: 0 7vw 0 0;
+}
+
+.rowType2 .rowItempriceInfo {
+    position: absolute;
+    margin: 0 auto;
+    left: 60%;
+}

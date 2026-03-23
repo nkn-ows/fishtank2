@@ -1,0 +1,25 @@
+<!-- Wavyfin -->
+<svg width="220" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" class="fish wavyfin">
+    <!-- Body -->
+    <ellipse cx="110" cy="60" rx="85" ry="50" fill="var(--body-color, #f28c28)" stroke="#a04e00" stroke-width="3" />
+
+    <!-- Wavy stripes (pattern) -->
+    <path d="M50,30 Q70,20 90,30 T130,30 T170,30" stroke="var(--pattern-color, #ffffff)" stroke-width="6" fill="none" />
+    <path d="M50,60 Q70,50 90,60 T130,60 T170,60" stroke="var(--pattern-color, #ffffff)" stroke-width="6" fill="none" />
+    <path d="M50,90 Q70,80 90,90 T130,90 T170,90" stroke="var(--pattern-color, #ffffff)" stroke-width="6" fill="none" />
+
+    <!-- Tail fin -->
+    <polygon points="23,60 7,35 7,85" fill="var(--tail-color, #f28c28)" stroke="#a04e00" stroke-width="3" />
+
+    <!-- Top fin -->
+    <path d="M 90 15 Q 110 0 130 15 L 120 40 Q 100 25 90 15 Z" fill="var(--top-fin-color, #f28c28)" stroke="#a04e00" stroke-width="3" />
+
+    <!-- Bottom fin -->
+    <path d="M 90 105 Q 110 120 130 105 L 120 80 Q 100 95 90 105 Z" fill="var(--bottom-fin-color, #f28c28)" stroke="#a04e00" stroke-width="3" />
+
+    <!-- Eye -->
+    <circle cx="175" cy="55" r="10" fill="#ffffff" stroke="#000000" stroke-width="1.5" />
+    <circle cx="175" cy="55" r="5" fill="#000000" />
+    <!-- Eye highlight -->
+    <circle cx="178" cy="53" r="1" fill="#ffffff" />
+</svg>

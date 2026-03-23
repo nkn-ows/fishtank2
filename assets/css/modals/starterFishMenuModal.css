@@ -1,0 +1,38 @@
+#starterFishButtonsContainer {
+    display: flex;
+}
+
+#starterFishBlocksContainer {
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+#starterFishBlocksContainer>div,
+#starterFishButtonsContainer>div {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+#starterFish1Block {
+    border-right: 3px solid black;
+}
+
+#starterFish3Block {
+    border-left: 3px solid black;
+}
+
+#starterFishMenu .modalTitle {
+    margin: 7vh 0 4vh 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    #starterFishMenu .modalTitle {
+        margin: 7vh 0 7vh 0;
+    }
+
+    #starterFishBlocksContainer div svg {
+        padding: 5vh 7vh !important;
+    }
+}

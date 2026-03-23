@@ -1,0 +1,22 @@
+#fishShopItemsContainer {
+    background-color: rgb(240, 240, 240);
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+#fishShopItemsContainer .rowItem b {
+    margin-top: 1vh;
+}
+
+.costPrice {
+    margin: -1vh 0 1vh 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    #fishShopItemsContainer .rowItem svg {
+        padding-top: 2vh;
+    }
+}
